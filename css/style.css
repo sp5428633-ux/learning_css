@@ -1,0 +1,12 @@
+h4{
+    color: aqua;
+    background-color: rgb(31, 74, 76);
+    font-size: 40px;
+}
+
+p{
+    color: black;
+    background-color: rgb(164, 190, 212);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

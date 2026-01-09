@@ -1,0 +1,13 @@
+th{
+    background-color: black;
+    color: red;
+}
+ 
+tr{
+background-color: rgb(174, 170, 170);
+color: rgb(153, 70, 70);
+}
+table{
+    width: 300px;
+    text-align: center;
+}
