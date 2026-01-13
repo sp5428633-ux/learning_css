@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(205, 196, 196);
+}
+#head{
+    font-family:monospace;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+.para{
+    color: aqua;
+    
+}
