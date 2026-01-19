@@ -1,0 +1,36 @@
+
+.simple{
+    border: 6px solid red;
+}
+
+.box_model1{
+    border: 6px solid red;
+    padding: 30px;
+    margin: 40px;
+}
+
+.box_model2{
+     border: 6px solid rgb(0, 217, 255);
+    /* padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-left: 20px; */
+    /* top and bottom  left and right */
+    /* padding: 20px 10px; */
+
+    /* top>right>bottom>left */
+    padding: 30px 20px 30px 20px;
+
+}
+
+.box_model3{
+    border: 7px solid green;
+    padding: 35px;
+    /* margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px; */
+    /* margin: 10px 20px 10px 20px; */
+    margin: 10px 20px;
+
+}

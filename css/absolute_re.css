@@ -1,0 +1,41 @@
+.rel{
+    position: relative;
+    background-color: rgb(231, 226, 226);
+    height: 300px;
+    width: 400px;
+    left: 100px;
+}
+#tv{
+   position: absolute;
+   height: 70px;
+   width: 150px;
+   background-color: coral;
+   left: 120px;
+     text-align: center;
+}
+#sofa{
+    position: absolute;
+   height: 50px;
+   width: 250px;
+   background-color: #9d6c5d;
+   bottom:0px;
+   right: 0px;
+     text-align: center;
+}
+#fridge{
+   position: absolute;
+   height: 50px;
+   width: 100px;
+   background-color: rgb(205, 26, 104);
+   top:9px;
+   right: 0px;
+   text-align: center;
+}
+#sofa2{
+    position: absolute;
+   height: 100px;
+   width: 50px;
+   background-color: rgb(144, 135, 122);
+   bottom:50px;
+   right: 0px;
+   text-align: center;

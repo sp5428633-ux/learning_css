@@ -1,0 +1,16 @@
+ body{
+             background-image:url("/images/buterflys.jpg");
+             background-repeat: no-repeat;
+             background-size: cover;
+             
+    }
+
+.head{
+  text-align: center;
+  color: white;
+}
+.para{
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+}

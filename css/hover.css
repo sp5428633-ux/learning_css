@@ -1,0 +1,62 @@
+
+
+
+
+h1:hover{
+  color: white;
+  background-color: aqua;
+  text-align: center;
+  font-size: 50px;
+}
+
+h1{
+    background-color: rgb(18, 103, 103);
+}
+
+p{
+    color: rgb(224, 145, 17);
+    border: 3px solid grey;
+    background-color: rgb(239, 233, 225);
+    
+}
+p:hover{
+    color: white;
+    background-color:rgb(224, 145, 17);
+    font-weight: 100;
+    padding: 30px;
+    margin: 20px;
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: red;
+}
+p::first-line{
+    color: rgb(140, 39, 39);
+    font-size: 20px;
+}
+
+::selection{
+    background-color: grey;
+    color: rgb(0, 255, 47);
+}
+
+.btn{
+    text-align: right;
+    
+}
+h2:active{
+    cursor: pointer;
+    color: blue;
+}
+
+a:visited{
+    color: rgb(253, 18, 34);
+}
+
+input:focus{
+    color: rgb(37, 2, 2);
+    background-color: rgb(174, 171, 171);
+    font-size: 20px;
+    border: 4px solid blue;
+}

@@ -1,0 +1,23 @@
+.flex_gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.flex_img{
+  margin-top: 10px;
+   width:250px;
+   height: 300px;
+   border: 6px solid rgb(67, 65, 65);
+   margin: 40px;
+   display: flex;
+   border-radius: 15px;
+   box-shadow: 7px 8px 3px gray;
+   
+
+   
+
+}
