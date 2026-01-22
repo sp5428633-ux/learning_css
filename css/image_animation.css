@@ -1,0 +1,51 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.swing{
+    animation: swing 1.5s ease-in-out infinite ;
+    transform: top center ;
+    position: relative;
+    
+}
+
+.swing  img{
+    width: 300px;
+    border: 15px groove goldenrod;
+    box-shadow: 10px 12px rgb(142, 132, 118);
+    display: block;
+}
+
+.swing::before{
+    content: " ";
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 50px;
+    background-color: gray;
+   
+
+}
+.swing ::after{
+content: "\2B24";
+position: absolute;
+top: -60px;
+left: 50%;
+transform: translateX(-50%);
+height: 10px;
+border-radius: 50%;
+
+
+
+}
+
+@keyframes swing{
+    0%{transform: rotate(5deg);}
+    100%{transform: rotate(-5deg);}
+}
